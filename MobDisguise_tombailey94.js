@@ -1,36 +1,36 @@
 function newLevel() {
-	clientMessage("Go into third person");
+	clientMessage("Go into third person ;)Mod by kolbie smith");
 }
 
 function procCmd(command) {
 	command = command.split(" ");
 	switch (command[0].toLowerCase()) {
-		case "chicken":
-			Entity.setRenderType(Player.getEntity(), 6);
-			Entity.setMobSkin(Player.getEntity(),"mob/chicken.png");
+		case "Mooshroom":
+			Entity.setRenderType(Player.getEntity(), 1);
+			Entity.setMobSkin(Player.getEntity(),"mob/mooshroom.png");
 			break;
 		case "cow":
-			Entity.setRenderType(Player.getEntity(), 7);
+			Entity.setRenderType(Player.getEntity(), 6);
 			Entity.setMobSkin(Player.getEntity(),"mob/cow.png");
 			break;
 		case "creeper":
 			Entity.setRenderType(Player.getEntity(), 14);
 			Entity.setMobSkin(Player.getEntity(),"mob/creeper.png");
-			break;
+			break:
 		case "pig":
 			Entity.setRenderType(Player.getEntity(), 8);
 			Entity.setMobSkin(Player.getEntity(),"mob/pig.png");
 			break;
 		case "sheep":
 			Entity.setRenderType(Player.getEntity(), 9);
-			Entity.setMobSkin(Player.getEntity(),"mob/sheep_0.png");
+			Entity.setMobSkin(Player.getEntity(),"mob/sheep.png");
 			break;
 		case "skeleton":
 			Entity.setRenderType(Player.getEntity(), 14);
 			Entity.setMobSkin(Player.getEntity(),"mob/skeleton.png");
 			break;
 		case "spider":
-			Entity.setRenderType(Player.getEntity(), 13);
+			Entity.setRenderType(Player.getEntity(), 1);
 			Entity.setMobSkin(Player.getEntity(),"mob/spider.png");
 			break;
 		case "steve":
@@ -38,11 +38,11 @@ function procCmd(command) {
 			Entity.setMobSkin(Player.getEntity(),"mob/char.png");
 			break;
 		case "zombie":
-			Entity.setRenderType(Player.getEntity(), 11);
+			Entity.setRenderType(Player.getEntity(), 3);
 			Entity.setMobSkin(Player.getEntity(),"mob/zombie.png");
 			break;
 		case "zombiepigman":
-			Entity.setRenderType(Player.getEntity(), 11);
+			Entity.setRenderType(Player.getEntity(), 3);
 			Entity.setMobSkin(Player.getEntity(),"mob/pigzombie.png");
 			break;
 	}
