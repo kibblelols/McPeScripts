@@ -38,11 +38,11 @@ function procCmd(command) {
 			Entity.setMobSkin(Player.getEntity(),"mob/char.png");
 			break;
 		case "zombie":
-			Entity.setRenderType(Player.getEntity(), 11);
+			Entity.setRenderType(Player.getEntity(), 3);
 			Entity.setMobSkin(Player.getEntity(),"mob/zombie.png");
 			break;
 		case "zombiepigman":
-			Entity.setRenderType(Player.getEntity(), 11);
+			Entity.setRenderType(Player.getEntity(), 3);
 			Entity.setMobSkin(Player.getEntity(),"mob/pigzombie.png");
 			break;
 	}
