@@ -1,5 +1,5 @@
 function newLevel() {
-	clientMessage("Go into third person ;)Mod by kolbie smith");
+	clientMessage("Go into third person Mod by kolbie smith");
 }
 
 function procCmd(command) {
