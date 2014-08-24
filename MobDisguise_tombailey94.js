@@ -10,7 +10,7 @@ function procCmd(command) {
 			Entity.setMobSkin(Player.getEntity(),"mob/chicken.png");
 			break;
 		case "cow":
-			Entity.setRenderType(Player.getEntity(), 7);
+			Entity.setRenderType(Player.getEntity(), 6);
 			Entity.setMobSkin(Player.getEntity(),"mob/cow.png");
 			break;
 		case "creeper":
