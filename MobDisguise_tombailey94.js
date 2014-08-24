@@ -7,7 +7,7 @@ function procCmd(command) {
 	switch (command[0].toLowerCase()) {
 		case "chicken":
 			Entity.setRenderType(Player.getEntity(), 10);
-			Entity.setMobSkin(Player.getEntity(),"mob/mooshroom.png");
+			Entity.setMobSkin(Player.getEntity(),"mob/chicken.png");
 			break;
 		case "cow":
 			Entity.setRenderType(Player.getEntity(), 6);
