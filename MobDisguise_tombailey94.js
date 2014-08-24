@@ -22,8 +22,8 @@ function procCmd(command) {
 			Entity.setMobSkin(Player.getEntity(),"mob/pig.png");
 			break;
 		case "sheep":
-			Entity.setRenderType(Player.getEntity(), 9);
-			Entity.setMobSkin(Player.getEntity(),"mob/sheep.png");
+			Entity.setRenderType(Player.getEntity(), 6);
+			Entity.setMobSkin(Player.getEntity(),"mob/sheep_0.png");
 			break;
 		case "skeleton":
 			Entity.setRenderType(Player.getEntity(), 14);
