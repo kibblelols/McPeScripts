@@ -5,8 +5,8 @@ function newLevel() {
 function procCmd(command) {
 	command = command.split(" ");
 	switch (command[0].toLowerCase()) {
-		case "Mooshroom":
-			Entity.setRenderType(Player.getEntity(), 1);
+		case "chicken":
+			Entity.setRenderType(Player.getEntity(), 10);
 			Entity.setMobSkin(Player.getEntity(),"mob/mooshroom.png");
 			break;
 		case "cow":
@@ -23,14 +23,14 @@ function procCmd(command) {
 			break;
 		case "sheep":
 			Entity.setRenderType(Player.getEntity(), 9);
-			Entity.setMobSkin(Player.getEntity(),"mob/sheep.png");
+			Entity.setMobSkin(Player.getEntity(),"mob/sheep_0.png");
 			break;
 		case "skeleton":
 			Entity.setRenderType(Player.getEntity(), 14);
 			Entity.setMobSkin(Player.getEntity(),"mob/skeleton.png");
 			break;
 		case "spider":
-			Entity.setRenderType(Player.getEntity(), 1);
+			Entity.setRenderType(Player.getEntity(), 10);
 			Entity.setMobSkin(Player.getEntity(),"mob/spider.png");
 			break;
 		case "steve":
